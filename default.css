@@ -1,3 +1,21 @@
-.span {
-  float: right;
+.contact {
+  padding: 3em;
+  text-align: right;
+}
+
+.contact span {
+  margin-left: 1em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #39f;
+}
+
+i {
+  letter-spacing: 0.5em;
 }
