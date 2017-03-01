@@ -1,12 +1,3 @@
-.contact {
-  padding: 3em;
-  text-align: right;
-}
-
-.contact span {
-  margin-left: 1em;
-}
-
 a {
   color: white;
   text-decoration: none;
@@ -16,8 +7,21 @@ a:hover {
   color: #39f;
 }
 
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 i {
   letter-spacing: 0.5em;
+}
+
+.contact {
+  padding: 3em;
+  text-align: right;
+}
+
+.contact span {
+  margin-left: 1em;
 }
 
 .logo img {
@@ -25,4 +29,20 @@ i {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.welcome h5 {
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  opacity: 0.5;
 }
