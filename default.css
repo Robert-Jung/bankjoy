@@ -53,26 +53,28 @@ i {
   opacity: 0.5;
 }
 
-.phones {
-  position: relative;
-  width: 70%;
+.container-phone {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+  width: 70%;
+}
+
+.phones {
+  position: relative;
+  width: 30%;
 }
 
 #left.phones {
-  width: 32%;
-  left: 8%;
+  left: 7%;
 }
 
 #center.phones {
-  width: 33%;
+  width: 32%;
   bottom: 20px;
   z-index: 2;
 }
 
 #right.phones {
-  width: 32%;
-  right: 8%;
+  right: 7%;
 }
